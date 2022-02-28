@@ -1,0 +1,87 @@
+////// STYLE VIDEO PLAYER UI - CSS LESS //////
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;900&display=swap');
+
+
+// custom video player color
+@color: rgb(92, 200, 253);
+
+// this is the default pixel size
+// it can be increased for accessibility!
+@size: 13px;
+
+// Navbar //
+.nav-bar {
+    background-color: #000000;
+    height: max-content;
+
+    img {
+        max-height: 20px;
+        max-width: auto;
+        margin: 15px;
+        padding-left: 20px;
+        filter: invert(1);
+    }
+}
+
+// GRID //
+
+.container {
+    display: grid;
+    margin: 15px 150px 0 150px;
+
+    // video {
+    //     width: auto;
+    //     height: 500px;
+    // }
+
+
+
+    .info {
+
+        .info-3 {
+            .video-actions {
+                margin: 0;
+                padding: 0;
+
+                button {
+                    background-color: #ffffff;
+                    border: 0;
+                    border-radius: 100%;
+                    width: 32px;
+                    height: 32px;
+                    cursor: pointer;
+                }
+
+                button:hover {
+                    background-color: #dadada;
+                    transition: ease-in-out 0.2s;
+                }
+
+                li {
+                    display: inline-block;
+                    color: #000000;
+                    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+                    margin: 8px;
+                    font-size: 0.8rem;
+                }
+
+                .flag {
+                    float: right;
+                    margin-right: 0;
+                    cursor: pointer;
+                }
+
+            }
+        }
+
+        .band {
+            height: 50px;
+            background-color: #f8f8f8;
+
+        }
+    }
+
+
+
+}
