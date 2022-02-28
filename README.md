@@ -34,7 +34,6 @@ Devrait fonctionner sur >= IE9"
 par Simon Goellner
 
 ## MODIFICATIONS EN COURS ##
-* 
 - Improving the grid
 - Adaptating the responsive according to the new grid
 - Optimizing HTML and CSS codes
@@ -42,7 +41,6 @@ par Simon Goellner
 Currently debunking the code in the test files.
 
 
-* 
 - Amélioration du grid
 - Adaptation du responsive en fonction du grid
 - Optimisation des codes HTML et CSS
@@ -50,7 +48,6 @@ Currently debunking the code in the test files.
 Reprise du code en cours dans les fichiers test.
 
 ## AMELIORATIONS A APPORTER ##
-* 
 - Display the controls on the video instead of a control bar
 - Drag support for volume control (dragging)
 - Reset the video to small screen with the mouse and not just with the escape key
@@ -59,7 +56,6 @@ Reprise du code en cours dans les fichiers test.
 - Optimize the responsive for different screens
 
 
-* 
 - Afficher les contrôles sur la vidéo lors et non plus sur une barre
 - Prise en charge du glisser pour le contrôle du volume (dragging)
 - Remettre la vidéo en petit écran avec la souris et non seulement avec le bouton échap
